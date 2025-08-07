@@ -51,5 +51,6 @@ cd Pixel-Grid-Fullstack
 
 #### 2. Installer les dépendances et lancer le serveur de dev
 ```bash
-npm install
+npm install && npm install --prefix server && npm install --prefix client
 npm run dev
+
